@@ -72,7 +72,7 @@ public class GuiFuelInputMachine extends GuiContainer {
         this.fontRenderer.drawString(msgRatio, (-55 - (this.fontRenderer.getStringWidth(msgRatio))/2), 37, 4210752);
 
         //Lack of solid fuel
-        if(tile.getCurrentSolidFuelTemp() == 0){
+        if(tile.getSolidFuelTemp() == 0){
             String warn = TextFormatting.RED+I18n.format("tio.gui.fim.error_message", new Object[0]);
             this.fontRenderer.drawString(warn, (-55 - (this.fontRenderer.getStringWidth(warn))/2), 49, 4210752);
         }
