@@ -119,7 +119,7 @@ public class TileEntityFuelInputMachine extends TileEntitySmelteryItemCapacity i
         }
     }
 
-    private int getSolidFuelTemp() {
+    public int getSolidFuelTemp() {
         ItemStack solidFuel = inventory.getStackInSlot(ContainerFuelInputMachine.FUEL);
         if(solidFuel != ItemStack.EMPTY) {
             int burnTime = TileEntityFurnace.getItemBurnTime(solidFuel);
