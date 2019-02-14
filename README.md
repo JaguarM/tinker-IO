@@ -28,7 +28,7 @@ When you are reporting bugs, please attach the crash report, mod version and for
 
 ## Help us translate the mod
 Feel free to translate the mod. As soon as you translated the mod, you could pull a request. And we will add the language file into Tinker I/O.<br/>
-The example of language file : [English lang file](https://github.com/gkbm2013/tinker-IO/blob/1.12.1/src/resources/assets/tinker_io/lang/en_US.lang)
+The example of language file : [English lang file](https://github.com/gkbm2013/tinker-IO/blob/1.12.2_rewrite/src/main/resources/assets/tinker_io/lang/en_US.lang)
 
 ## About Modpack and License
 Tinker I/O is licensed under a Creative Commons 3.0 License.<br/>
